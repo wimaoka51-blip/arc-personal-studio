@@ -2962,7 +2962,7 @@ a {
   }
 
   .final-cta__button {
-    margin-top: 30px;
+    margin-top: clamp(72px, 18svh, 160px);
   }
 
   .final-cta__footer {
@@ -2973,6 +2973,14 @@ a {
 
   .final-cta__footer strong {
     font-size: 20px;
+  }
+
+  .final-cta .cta__badge {
+    left: 21px;
+  }
+
+  .final-cta .cta__arrow {
+    right: 21px;
   }
 }
 
